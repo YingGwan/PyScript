@@ -1,0 +1,4433 @@
+1
+
+   Abaqus 2020                                  Date 05-May-2022   Time 05:41:31
+   For use by Supplied by Team-SolidSQUAD under license from Dassault Systemes or its subsidiary.
+
+                                                                                 
+                                                                                 
+ STEP    1     INCREMENT     1     STEP TIME    0.00    
+
+
+                        S T E P       1     S T A T I C   A N A L Y S I S
+
+
+                                                                                          
+
+     AUTOMATIC TIME CONTROL WITH -
+          A SUGGESTED INITIAL TIME INCREMENT OF                1.000E-03
+          AND A TOTAL TIME PERIOD OF                            1.00    
+          THE MINIMUM TIME INCREMENT ALLOWED IS                1.000E-07
+          THE MAXIMUM TIME INCREMENT ALLOWED IS                0.100    
+
+     LINEAR EQUATION SOLVER TYPE         DIRECT SPARSE
+
+ CONVERGENCE TOLERANCE PARAMETERS FOR FORCE    
+     CRITERION FOR RESIDUAL FORCE     FOR A NONLINEAR PROBLEM          5.000E-03
+     CRITERION FOR DISP.    CORRECTION IN A NONLINEAR PROBLEM          1.000E-02
+     INITIAL VALUE OF TIME AVERAGE FORCE                               1.000E-02
+     AVERAGE FORCE     IS TIME AVERAGE FORCE    
+     ALTERNATE CRIT. FOR RESIDUAL FORCE     FOR A NONLINEAR PROBLEM    2.000E-02
+     CRITERION FOR ZERO FORCE     RELATIVE TO TIME AVRG. FORCE         1.000E-05
+     CRITERION FOR RESIDUAL FORCE     WHEN THERE IS ZERO FLUX          1.000E-05
+     CRITERION FOR DISP.    CORRECTION WHEN THERE IS ZERO FLUX         1.000E-03
+     CRITERION FOR RESIDUAL FORCE     FOR A LINEAR INCREMENT           1.000E-08
+     FIELD CONVERSION RATIO                                             1.00    
+     CRITERION FOR ZERO FORCE     REL. TO TIME AVRG. MAX. FORCE        1.000E-05
+     CRITERION FOR ZERO DISP.    RELATIVE TO CHARACTERISTIC LENGTH     1.000E-08
+
+ CONVERGENCE TOLERANCE PARAMETERS FOR MOMENT   
+     CRITERION FOR RESIDUAL MOMENT    FOR A NONLINEAR PROBLEM          5.000E-03
+     CRITERION FOR ROTATION CORRECTION IN A NONLINEAR PROBLEM          1.000E-02
+     INITIAL VALUE OF TIME AVERAGE MOMENT                              1.000E-02
+     AVERAGE MOMENT    IS TIME AVERAGE MOMENT   
+     ALTERNATE CRIT. FOR RESIDUAL MOMENT    FOR A NONLINEAR PROBLEM    2.000E-02
+     CRITERION FOR ZERO MOMENT    RELATIVE TO TIME AVRG. MOMENT        1.000E-05
+     CRITERION FOR RESIDUAL MOMENT    WHEN THERE IS ZERO FLUX          1.000E-05
+     CRITERION FOR ROTATION CORRECTION WHEN THERE IS ZERO FLUX         1.000E-03
+     CRITERION FOR RESIDUAL MOMENT    FOR A LINEAR INCREMENT           1.000E-08
+     FIELD CONVERSION RATIO                                             1.00    
+     CRITERION FOR ZERO MOMENT    REL. TO TIME AVRG. MAX. MOMENT       1.000E-05
+
+     VOLUMETRIC STRAIN COMPATIBILITY TOLERANCE FOR HYBRID SOLIDS       1.000E-05
+     AXIAL STRAIN COMPATIBILITY TOLERANCE FOR HYBRID BEAMS             1.000E-05
+     TRANS. SHEAR STRAIN COMPATIBILITY TOLERANCE FOR HYBRID BEAMS      1.000E-05
+     SOFT CONTACT CONSTRAINT COMPATIBILITY TOLERANCE FOR P>P0          5.000E-03
+     SOFT CONTACT CONSTRAINT COMPATIBILITY TOLERANCE FOR P=0.0         0.100    
+     CONTACT FORCE ERROR TOLERANCE FOR CONVERT SDI=YES                 1.00    
+     DISPLACEMENT COMPATIBILITY TOLERANCE FOR DCOUP ELEMENTS           1.000E-05
+     ROTATION COMPATIBILITY TOLERANCE FOR DCOUP ELEMENTS               1.000E-05
+
+ EQUILIBRIUM WILL BE CHECKED FOR SEVERE DISCONTINUITY ITERATIONS
+
+ TIME INCREMENTATION CONTROL PARAMETERS:
+     FIRST EQUILIBRIUM ITERATION FOR CONSECUTIVE DIVERGENCE CHECK              4
+     EQUILIBRIUM ITERATION AT WHICH LOG. CONVERGENCE RATE CHECK BEGINS         8
+     EQUILIBRIUM ITERATION AFTER WHICH ALTERNATE RESIDUAL IS USED              9
+     MAXIMUM EQUILIBRIUM ITERATIONS ALLOWED                                   16
+     EQUILIBRIUM ITERATION COUNT FOR CUT-BACK IN NEXT INCREMENT               10
+     MAXIMUM EQUILIB. ITERS IN TWO INCREMENTS FOR TIME INCREMENT INCREASE      4
+     MAXIMUM ITERATIONS FOR SEVERE DISCONTINUITIES                            50
+     MAXIMUM ATTEMPTS ALLOWED IN AN INCREMENT                                  5
+     MAXIMUM DISCON. ITERS IN TWO INCREMENTS FOR TIME INCREMENT INCREASE      50
+     MAXIMUM CONTACT AUGMENTATIONS FOR *SURFACE BEHAVIOR,AUGMENTED LAGRANGE   50
+     CUT-BACK FACTOR AFTER DIVERGENCE                                 0.2500    
+     CUT-BACK FACTOR FOR TOO SLOW CONVERGENCE                         0.5000    
+     CUT-BACK FACTOR AFTER TOO MANY EQUILIBRIUM ITERATIONS            0.7500    
+     CUT-BACK FACTOR AFTER TOO MANY SEVERE DISCONTINUITY ITERATIONS   0.2500    
+     CUT-BACK FACTOR AFTER PROBLEMS IN ELEMENT ASSEMBLY               0.2500    
+     INCREASE FACTOR AFTER TWO INCREMENTS THAT CONVERGE QUICKLY        1.500    
+     MAX. TIME INCREMENT INCREASE FACTOR ALLOWED                       1.500    
+     MAX. TIME INCREMENT INCREASE FACTOR ALLOWED (DYNAMICS)            1.250    
+     MAX. TIME INCREMENT INCREASE FACTOR ALLOWED (DIFFUSION)           2.000    
+     MINIMUM TIME INCREMENT RATIO FOR EXTRAPOLATION TO OCCUR          0.1000    
+     MAX. RATIO OF TIME INCREMENT TO STABILITY LIMIT                   1.000    
+     FRACTION OF STABILITY LIMIT FOR NEW TIME INCREMENT               0.9500    
+     TIME INCREMENT INCREASE FACTOR BEFORE A TIME POINT                1.000    
+     GLOBAL STABILIZATION CONTROL IS NOT USED
+
+          PRINT OF INCREMENT NUMBER, TIME, ETC., EVERY    1  INCREMENTS
+
+ LINE SEARCH TOLERANCE PARAMETERS:
+     MAXIMUM NUMBER OF ZERO-FINDING ITERATIONS                                 0
+     MAXIMUM CORRECTION SCALE FACTOR                                    1.00    
+     MINIMUM CORRECTION SCALE FACTOR                                   1.000E-04
+     RESIDUAL REDUCTION FACTOR TO END LINE SEARCHING                   0.250    
+     RATIO OF NEW TO OLD SCALE FACTORS TO END LINE SEARCHING           0.100    
+
+          THE QUASI-NEWTON SOLUTION TECHNIQUE WILL BE USED
+          THE MAXIMUM NUMBER OF ITERATIONS ALLOWED BEFORE
+          REFORMING THE KERNEL MATRIX IS                           8
+
+     THE MAXIMUM NUMBER OF INCREMENTS IN THIS STEP IS                    1000
+
+          LARGE DISPLACEMENT THEORY WILL BE USED
+
+     LINEAR EXTRAPOLATION WILL BE USED
+
+     CHARACTERISTIC ELEMENT LENGTH     8.307E-03
+
+     DETAILS REGARDING ACTUAL SOLUTION WAVEFRONT REQUESTED
+
+     DETAILED OUTPUT OF DIAGNOSTICS TO DATABASE REQUESTED
+
+     PRINT OF INCREMENT NUMBER, TIME, ETC., TO THE MESSAGE FILE EVERY     1  INCREMENTS
+
+     ELEMENT OPERATIONS WILL BE CARRIED OUT IN PARALLEL USING   5 PROCESSORS
+
+     PARALLEL CONTACT TRACKING ENABLED
+
+
+     COLLECTING MODEL CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS
+
+     COLLECTING STEP CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS
+
+
+  INCREMENT     1 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-03
+ 
+     INITIAL ELEMENT LOAD BALANCE
+            PROCESS    1   THREAD     NUMBER OF ELEMENTS
+                              1            2986
+                              2            3328
+                              3            3328
+                              4            2560
+                              5            3069
+
+ ==> quasi-Newton: performing full factorization
+
+ ***WARNING: THERE ARE 4 UNCONNECTED REGIONS IN THE MODEL.
+
+ ***NOTE: SFM TYPE SURFACE ELEMENTS USED TO DEFINE CONTACT SURFACES NOT PART OF 
+          A RIGID BODY MAY INCREASE THE NUMBER OR UNCONNECTED REGIONS REPORTED.
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.20000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.60000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      7.163E-07   TIME AVG. FORCE        1.20    
+                                                (FROM MOMENT    FIELD)
+ LARGEST RESIDUAL FORCE             4.913E-06   AT NODE        131   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.899E-05   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        2.899E-05   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO FORCE     EVERYWHERE
+
+ AVERAGE MOMENT                     3.864E-10   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            7.023E-10   AT NODE        460   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -2.090E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -2.090E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  1.000E-03,  FRACTION OF STEP COMPLETED  1.000E-03
+ STEP TIME COMPLETED       1.000E-03,  TOTAL TIME COMPLETED        1.000E-03
+
+
+  INCREMENT     2 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-03
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.50000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      1.426E-06   TIME AVG. FORCE        1.20    
+                                                (FROM MOMENT    FIELD)
+ LARGEST RESIDUAL FORCE            -8.673E-08   AT NODE        771   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.720E-05   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -1.792E-06   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO FORCE     EVERYWHERE
+
+ AVERAGE MOMENT                     7.630E-10   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -1.853E-10   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.951E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     1.406E-04   AT NODE         22   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    1.500E-03
+
+ ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  1.000E-03,  FRACTION OF STEP COMPLETED  2.000E-03
+ STEP TIME COMPLETED       2.000E-03,  TOTAL TIME COMPLETED        2.000E-03
+
+
+  INCREMENT     3 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.500E-03
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      2.490E-06   TIME AVG. FORCE        1.20    
+                                                (FROM MOMENT    FIELD)
+ LARGEST RESIDUAL FORCE            -1.447E-07   AT NODE        771   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         3.992E-05   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -8.851E-07   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO FORCE     EVERYWHERE
+
+ AVERAGE MOMENT                     1.323E-09   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -3.125E-10   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -2.858E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     6.871E-05   AT NODE         22   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    2.250E-03
+
+ ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  1.500E-03,  FRACTION OF STEP COMPLETED  3.500E-03
+ STEP TIME COMPLETED       3.500E-03,  TOTAL TIME COMPLETED        3.500E-03
+
+
+  INCREMENT     4 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  2.250E-03
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      4.079E-06   TIME AVG. FORCE        1.20    
+                                                (FROM MOMENT    FIELD)
+ LARGEST RESIDUAL FORCE            -3.170E-07   AT NODE        771   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         5.664E-05   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -3.236E-06   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO FORCE     EVERYWHERE
+
+ AVERAGE MOMENT                     2.144E-09   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -6.792E-10   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -4.038E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     2.498E-04   AT NODE         22   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    3.375E-03
+
+ ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  2.250E-03,  FRACTION OF STEP COMPLETED  5.750E-03
+ STEP TIME COMPLETED       5.750E-03,  TOTAL TIME COMPLETED        5.750E-03
+
+
+  INCREMENT     5 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  3.375E-03
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      6.451E-06   TIME AVG. FORCE        1.20    
+                                                (FROM MOMENT    FIELD)
+ LARGEST RESIDUAL FORCE            -6.580E-07   AT NODE        771   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         7.847E-05   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -6.490E-06   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO FORCE     EVERYWHERE
+
+ AVERAGE MOMENT                     3.339E-09   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -1.398E-09   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -5.560E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     4.967E-04   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    5.063E-03
+
+ ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  3.375E-03,  FRACTION OF STEP COMPLETED  9.125E-03
+ STEP TIME COMPLETED       9.125E-03,  TOTAL TIME COMPLETED        9.125E-03
+
+
+  INCREMENT     6 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  5.063E-03
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      9.983E-06   TIME AVG. FORCE        1.20    
+                                                (FROM MOMENT    FIELD)
+ LARGEST RESIDUAL FORCE            -1.325E-06   AT NODE        771   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         1.059E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -1.228E-05   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO FORCE     EVERYWHERE
+
+ AVERAGE MOMENT                     5.058E-09   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -2.775E-09   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -7.411E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     9.293E-04   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    7.594E-03
+
+ ITERATION SUMMARY FOR THE INCREMENT:   1 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  1 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  5.063E-03,  FRACTION OF STEP COMPLETED  1.419E-02
+ STEP TIME COMPLETED       1.419E-02,  TOTAL TIME COMPLETED        1.419E-02
+
+
+  INCREMENT     7 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  7.594E-03
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      1.524E-05   TIME AVG. FORCE       1.524E-05
+ LARGEST RESIDUAL FORCE             2.886E-06   AT NODE        131   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         1.388E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -2.165E-05   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     7.502E-09   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -5.251E-09   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -9.504E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     1.612E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                      1.524E-05   TIME AVG. FORCE       1.524E-05
+ LARGEST RESIDUAL FORCE             1.471E-07   AT NODE        460   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         1.386E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -3.628E-07   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     7.501E-09   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            3.463E-11   AT NODE        460   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -9.464E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     3.921E-05   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+
+ AVERAGE FORCE                      1.524E-05   TIME AVG. FORCE       1.524E-05
+ LARGEST RESIDUAL FORCE             2.405E-10   AT NODE        460   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         1.385E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -1.247E-08   AT NODE        532   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     7.501E-09   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            5.151E-13   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -9.463E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     1.391E-06   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    1.139E-02
+
+ ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  7.594E-03,  FRACTION OF STEP COMPLETED  2.178E-02
+ STEP TIME COMPLETED       2.178E-02,  TOTAL TIME COMPLETED        2.178E-02
+
+
+  INCREMENT     8 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.139E-02
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      6.114E-05   TIME AVG. FORCE       3.819E-05
+ LARGEST RESIDUAL FORCE             6.848E-06   AT NODE        131   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         1.757E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -3.417E-05   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     1.093E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -9.332E-09   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.173E-02   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     2.461E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                      6.113E-05   TIME AVG. FORCE       3.818E-05
+ LARGEST RESIDUAL FORCE             4.881E-07   AT NODE        460   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         1.751E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -8.065E-07   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     1.092E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            1.284E-10   AT NODE        460   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -1.165E-02   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     8.593E-05   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+
+ AVERAGE FORCE                      6.113E-05   TIME AVG. FORCE       3.818E-05
+ LARGEST RESIDUAL FORCE             1.558E-09   AT NODE        460   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         1.750E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -4.028E-08   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     1.092E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            1.445E-12   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.164E-02   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     4.488E-06   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    1.709E-02
+
+ ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  1.139E-02,  FRACTION OF STEP COMPLETED  3.317E-02
+ STEP TIME COMPLETED       3.317E-02,  TOTAL TIME COMPLETED        3.317E-02
+
+
+  INCREMENT     9 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.709E-02
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.30000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      9.003E-05   TIME AVG. FORCE       5.546E-05
+ LARGEST RESIDUAL FORCE             1.399E-05   AT NODE        131   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.145E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -5.020E-05   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     1.565E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -1.555E-08   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.394E-02   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     3.524E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                      9.000E-05   TIME AVG. FORCE       5.546E-05
+ LARGEST RESIDUAL FORCE             1.300E-06   AT NODE        460   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.132E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -1.531E-06   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     1.565E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            3.846E-10   AT NODE        460   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -1.378E-02   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     1.613E-04   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+
+ AVERAGE FORCE                      9.000E-05   TIME AVG. FORCE       5.546E-05
+ LARGEST RESIDUAL FORCE             8.221E-09   AT NODE        460   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.131E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -1.021E-07   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     1.565E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            4.003E-12   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.377E-02   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     1.139E-05   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    2.563E-02
+
+ ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  1.709E-02,  FRACTION OF STEP COMPLETED  5.026E-02
+ STEP TIME COMPLETED       5.026E-02,  TOTAL TIME COMPLETED        5.026E-02
+
+
+  INCREMENT    10 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  2.563E-02
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      1.326E-04   TIME AVG. FORCE       7.474E-05
+ LARGEST RESIDUAL FORCE             2.323E-05   AT NODE        131   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.538E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -6.703E-05   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.210E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -2.396E-08   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.608E-02   AT NODE         22   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     4.577E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.20000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.30000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                      1.326E-04   TIME AVG. FORCE       7.473E-05
+ LARGEST RESIDUAL FORCE             2.547E-06   AT NODE        460   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.518E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -2.372E-06   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.209E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            8.627E-10   AT NODE        460   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -1.584E-02   AT NODE         22   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     2.474E-04   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+
+ AVERAGE FORCE                      1.326E-04   TIME AVG. FORCE       7.473E-05
+ LARGEST RESIDUAL FORCE             2.929E-08   AT NODE        460   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.517E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -1.885E-07   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.208E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            9.897E-12   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.582E-02   AT NODE         22   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     2.106E-05   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    3.844E-02
+
+ ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  2.563E-02,  FRACTION OF STEP COMPLETED  7.589E-02
+ STEP TIME COMPLETED       7.589E-02,  TOTAL TIME COMPLETED        7.589E-02
+
+
+  INCREMENT    11 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  3.844E-02
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.50000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.60000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      1.948E-04   TIME AVG. FORCE       9.875E-05
+ LARGEST RESIDUAL FORCE             3.285E-05   AT NODE        131   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.938E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -8.370E-05   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.076E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -3.400E-08   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.827E-02   AT NODE         22   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     5.540E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.20000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                      1.947E-04   TIME AVG. FORCE       9.873E-05
+ LARGEST RESIDUAL FORCE             3.985E-06   AT NODE        460   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.912E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -3.120E-06   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.074E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            1.542E-09   AT NODE        460   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -1.795E-02   AT NODE         22   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     3.257E-04   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+
+ AVERAGE FORCE                      1.947E-04   TIME AVG. FORCE       9.873E-05
+ LARGEST RESIDUAL FORCE             7.304E-08   AT NODE        460   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.910E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -2.704E-07   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     3.074E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            1.960E-11   AT NODE         22   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -1.792E-02   AT NODE         22   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     3.048E-05   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    5.767E-02
+
+ ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  3.844E-02,  FRACTION OF STEP COMPLETED  0.114    
+ STEP TIME COMPLETED       0.114    ,  TOTAL TIME COMPLETED        0.114    
+
+
+  INCREMENT    12 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  5.767E-02
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      2.855E-04   TIME AVG. FORCE       1.299E-04
+ LARGEST RESIDUAL FORCE            -4.196E-05   AT NODE         91   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         3.415E-04   AT NODE        217   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -9.962E-05   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     4.234E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -4.435E-08   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      2.198E-02   AT NODE        102   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     6.381E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                      2.853E-04   TIME AVG. FORCE       1.298E-04
+ LARGEST RESIDUAL FORCE            -6.858E-06   AT NODE         91   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         3.390E-04   AT NODE        217   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -3.598E-06   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     4.231E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            2.323E-09   AT NODE        460   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      2.165E-02   AT NODE        102   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     3.840E-04   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+
+ AVERAGE FORCE                      2.853E-04   TIME AVG. FORCE       1.298E-04
+ LARGEST RESIDUAL FORCE             1.016E-07   AT NODE        460   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         3.388E-04   AT NODE        217   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -3.194E-07   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     4.231E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -3.069E-11   AT NODE        227   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      2.162E-02   AT NODE        102   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     3.707E-05   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    8.650E-02
+
+ ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  5.767E-02,  FRACTION OF STEP COMPLETED  0.172    
+ STEP TIME COMPLETED       0.172    ,  TOTAL TIME COMPLETED        0.172    
+
+
+  INCREMENT    13 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  8.650E-02
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      4.171E-04   TIME AVG. FORCE       1.709E-04
+ LARGEST RESIDUAL FORCE            -7.630E-05   AT NODE         91   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         4.051E-04   AT NODE        217   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -1.126E-04   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     5.784E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -5.338E-08   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      2.740E-02   AT NODE        338   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     7.105E-03   AT NODE         90   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =   0.0000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                      4.168E-04   TIME AVG. FORCE       1.708E-04
+ LARGEST RESIDUAL FORCE            -1.652E-05   AT NODE         91   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         4.024E-04   AT NODE        217   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -3.752E-06   AT NODE        499   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     5.779E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            3.120E-09   AT NODE        460   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      2.705E-02   AT NODE        338   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -6.253E-04   AT NODE         35   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.20000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.30000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+
+ AVERAGE FORCE                      4.167E-04   TIME AVG. FORCE       1.708E-04
+ LARGEST RESIDUAL FORCE            -2.641E-07   AT NODE        252   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         4.021E-04   AT NODE        217   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -3.895E-07   AT NODE         50   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     5.778E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -7.722E-11   AT NODE        227   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      2.702E-02   AT NODE        338   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -6.729E-05   AT NODE         35   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+          TIME INCREMENT MAY NOW INCREASE TO    0.100    
+
+ ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  8.650E-02,  FRACTION OF STEP COMPLETED  0.258    
+ STEP TIME COMPLETED       0.258    ,  TOTAL TIME COMPLETED        0.258    
+
+
+  INCREMENT    14 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  0.100    
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      5.656E-04   TIME AVG. FORCE       2.202E-04
+ LARGEST RESIDUAL FORCE            -5.785E-05   AT NODE         91   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         3.825E-04   AT NODE        217   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -8.680E-05   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     7.408E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -3.776E-08   AT NODE        771   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      2.628E-02   AT NODE        338   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -5.636E-03   AT NODE        102   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                      5.653E-04   TIME AVG. FORCE       2.201E-04
+ LARGEST RESIDUAL FORCE            -1.108E-05   AT NODE         91   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         3.810E-04   AT NODE        217   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -2.638E-06   AT NODE         50   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     7.403E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            1.445E-09   AT NODE        460   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      2.594E-02   AT NODE        338   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -4.861E-04   AT NODE         35   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+
+ AVERAGE FORCE                      5.653E-04   TIME AVG. FORCE       2.201E-04
+ LARGEST RESIDUAL FORCE            -1.573E-07   AT NODE        252   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         3.809E-04   AT NODE        217   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -2.429E-07   AT NODE         50   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     7.403E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -7.439E-11   AT NODE        227   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      2.591E-02   AT NODE        338   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -4.342E-05   AT NODE         35   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  0.100    ,  FRACTION OF STEP COMPLETED  0.358    
+ STEP TIME COMPLETED       0.358    ,  TOTAL TIME COMPLETED        0.358    
+
+
+  INCREMENT    15 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  0.100    
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      7.114E-04   TIME AVG. FORCE       2.747E-04
+ LARGEST RESIDUAL FORCE            -2.401E-05   AT NODE         91   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         3.344E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -5.246E-05   AT NODE        288   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     8.910E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            2.599E-08   AT NODE        803   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      2.226E-02   AT NODE        338   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -3.722E-03   AT NODE        102   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =   0.0000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                      7.112E-04   TIME AVG. FORCE       2.747E-04
+ LARGEST RESIDUAL FORCE            -3.261E-06   AT NODE         91   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         3.338E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -1.144E-06   AT NODE         50   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     8.908E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT            4.610E-10   AT NODE          1   DOF  6
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      2.208E-02   AT NODE        338   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -2.251E-04   AT NODE         35   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+
+ AVERAGE FORCE                      7.112E-04   TIME AVG. FORCE       2.747E-04
+ LARGEST RESIDUAL FORCE            -3.201E-08   AT NODE        532   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         3.338E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        7.252E-08   AT NODE        148   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     8.908E-08   TIME AVG. MOMENT      1.000E-02
+ LARGEST RESIDUAL MOMENT           -4.128E-11   AT NODE        227   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      2.207E-02   AT NODE        338   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -1.236E-05   AT NODE         35   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THERE IS ZERO MOMENT    EVERYWHERE
+ 
+
+ ***WARNING: THERE IS ZERO MOMENT EVERYWHERE IN THE MODEL BASED ON THE DEFAULT 
+             CRITERION. PLEASE CHECK THE VALUE OF THE AVERAGE MOMENT DURING THE 
+             CURRENT ITERATION TO VERIFY THAT THE MOMENT IS SMALL ENOUGH TO BE 
+             TREATED AS ZERO. IF NOT, PLEASE USE THE SOLUTION CONTROLS TO RESET 
+             THE CRITERION FOR ZERO MOMENT.
+
+ ITERATION SUMMARY FOR THE INCREMENT:   3 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  0.100    ,  FRACTION OF STEP COMPLETED  0.458    
+ STEP TIME COMPLETED       0.458    ,  TOTAL TIME COMPLETED        0.458    
+
+
+  INCREMENT    16 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  0.100    
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     1
+
+
+ AVERAGE FORCE                      8.535E-04   TIME AVG. FORCE       3.326E-04
+ LARGEST RESIDUAL FORCE            -1.771E-05   AT NODE        803   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         3.025E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -3.405E-05   AT NODE        217   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     1.034E-07   TIME AVG. MOMENT      1.034E-07
+ LARGEST RESIDUAL MOMENT            2.111E-08   AT NODE        803   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.946E-02   AT NODE         89   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -2.623E-03   AT NODE        338   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+
+ AVERAGE FORCE                      8.534E-04   TIME AVG. FORCE       3.326E-04
+ LARGEST RESIDUAL FORCE            -1.039E-06   AT NODE         91   DOF  2
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         3.023E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        6.332E-07   AT NODE        113   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     1.034E-07   TIME AVG. MOMENT      1.034E-07
+ LARGEST RESIDUAL MOMENT            1.855E-10   AT NODE          1   DOF  6
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      1.938E-02   AT NODE         89   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -1.113E-04   AT NODE         35   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ITERATION SUMMARY FOR THE INCREMENT:   2 TOTAL ITERATIONS, OF WHICH
+   0 ARE SEVERE DISCONTINUITY ITERATIONS AND  2 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  0.100    ,  FRACTION OF STEP COMPLETED  0.558    
+ STEP TIME COMPLETED       0.558    ,  TOTAL TIME COMPLETED        0.558    
+
+
+  INCREMENT    17 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  0.100    
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34476     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+
+                    3 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    3 POINTS CHANGED FROM OPEN TO CLOSED
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     1
+
+   MAX. PENETRATION ERROR 58.9801E-06  AT NODE WAIST-UP-1.548 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 18.9897E+03  AT NODE WAIST-UP-1.548 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      9.950E-04   TIME AVG. FORCE       3.928E-04
+ LARGEST RESIDUAL FORCE            -4.522E-02   AT NODE        548   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.789E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -2.474E-05   AT NODE        217   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.048E-07   TIME AVG. MOMENT      2.041E-07
+ LARGEST RESIDUAL MOMENT            1.696E-08   AT NODE        803   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.770E-02   AT NODE         89   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -1.979E-03   AT NODE        338   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34479     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    1 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    1 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     2
+
+   MAX. PENETRATION ERROR 4.50156E-09 AT NODE WAIST-UP-1.548 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 1.44935     AT NODE WAIST-UP-1.548 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      9.930E-04   TIME AVG. FORCE       3.926E-04
+ LARGEST RESIDUAL FORCE            -6.350E-04   AT NODE        319   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.783E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        3.654E-05   AT NODE        286   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.043E-07   TIME AVG. MOMENT      2.038E-07
+ LARGEST RESIDUAL MOMENT            4.690E-09   AT NODE        611   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.764E-02   AT NODE         89   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     3.001E-03   AT NODE        700   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34478     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+   MAX. PENETRATION ERROR 2.10922E-09 AT NODE WAIST-UP-1.548 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 679.098E-03   AT NODE WAIST-UP-1.548 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      9.929E-04   TIME AVG. FORCE       3.926E-04
+ LARGEST RESIDUAL FORCE             1.987E-05   AT NODE        268   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.781E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        2.693E-05   AT NODE        106   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.045E-07   TIME AVG. MOMENT      2.040E-07
+ LARGEST RESIDUAL MOMENT           -2.469E-09   AT NODE        532   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.764E-02   AT NODE         89   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION    -3.122E-03   AT NODE        169   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34478     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.20000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.20000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+   MAX. PENETRATION ERROR 35.2331E-12  AT NODE WAIST-UP-1.548 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 11.3439E-03  AT NODE WAIST-UP-1.548 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      9.929E-04   TIME AVG. FORCE       3.926E-04
+ LARGEST RESIDUAL FORCE             1.135E-07   AT NODE        710   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.781E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -6.706E-08   AT NODE        522   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     3.045E-07   TIME AVG. MOMENT      2.040E-07
+ LARGEST RESIDUAL MOMENT           -5.520E-11   AT NODE        227   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      1.764E-02   AT NODE         89   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     9.490E-06   AT NODE         88   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34478     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
+
+   MAX. PENETRATION ERROR -819.023E-15   AT NODE WAIST-UP-1.548 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -263.698E-06   AT NODE WAIST-UP-1.548 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE CONTACT CONSTRAINTS HAVE CONVERGED.
+
+ AVERAGE FORCE                      9.929E-04   TIME AVG. FORCE       3.926E-04
+ LARGEST RESIDUAL FORCE             5.117E-09   AT NODE        532   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.781E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        1.549E-08   AT NODE        106   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     3.045E-07   TIME AVG. MOMENT      2.040E-07
+ LARGEST RESIDUAL MOMENT            2.625E-12   AT NODE        532   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.764E-02   AT NODE         89   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO ROTATION     1.490E-06   AT NODE        226   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ITERATION SUMMARY FOR THE INCREMENT:   6 TOTAL ITERATIONS, OF WHICH
+   2 ARE SEVERE DISCONTINUITY ITERATIONS AND  4 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  0.100    ,  FRACTION OF STEP COMPLETED  0.658    
+ STEP TIME COMPLETED       0.658    ,  TOTAL TIME COMPLETED        0.658    
+
+
+  INCREMENT    18 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  0.100    
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34478     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.20000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+
+                   15 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                   15 POINTS CHANGED FROM OPEN TO CLOSED
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     1
+
+   MAX. PENETRATION ERROR 144.490E-06   AT NODE WAIST-UP-1.558 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 46.5211E+03  AT NODE WAIST-UP-1.558 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      1.139E-03   TIME AVG. FORCE       4.548E-04
+ LARGEST RESIDUAL FORCE            -0.143       AT NODE        558   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.578E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        9.361E-05   AT NODE          3   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.387E-07   TIME AVG. MOMENT      2.489E-07
+ LARGEST RESIDUAL MOMENT            3.120E-08   AT NODE        611   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.711E-02   AT NODE        215   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -6.221E-03   AT NODE        107   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34493     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  7.96E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    8 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    1 POINTS CHANGED FROM OPEN TO CLOSED
+                    7 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     2
+
+   MAX. PENETRATION ERROR 11.3273E-06  AT NODE WAIST-UP-1.552 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 3.64701E+03 AT NODE WAIST-UP-1.552 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      1.129E-03   TIME AVG. FORCE       4.539E-04
+ LARGEST RESIDUAL FORCE            -1.008E-02   AT NODE        552   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.589E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        1.246E-04   AT NODE        210   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.394E-07   TIME AVG. MOMENT      2.491E-07
+ LARGEST RESIDUAL MOMENT            1.223E-08   AT NODE        148   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.764E-02   AT NODE        215   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -1.168E-02   AT NODE        113   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34487     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.10E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.20000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.30000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    3 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    2 POINTS CHANGED FROM OPEN TO CLOSED
+                    1 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     3
+
+   MAX. PENETRATION ERROR 28.0048E-06  AT NODE WAIST-UP-1.331 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 9.01662E+03 AT NODE WAIST-UP-1.331 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      1.129E-03   TIME AVG. FORCE       4.540E-04
+ LARGEST RESIDUAL FORCE            -2.756E-02   AT NODE        331   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.598E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        6.893E-05   AT NODE        303   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.383E-07   TIME AVG. MOMENT      2.487E-07
+ LARGEST RESIDUAL MOMENT            4.839E-09   AT NODE         95   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.835E-02   AT NODE        215   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -1.104E-02   AT NODE        204   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34488     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.10E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+   MAX. PENETRATION ERROR 21.8530E-09  AT NODE WAIST-UP-1.190 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 7.03595     AT NODE WAIST-UP-1.190 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.129E-03   TIME AVG. FORCE       4.539E-04
+ LARGEST RESIDUAL FORCE            -1.917E-05   AT NODE        190   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.597E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        2.240E-05   AT NODE        146   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.382E-07   TIME AVG. MOMENT      2.487E-07
+ LARGEST RESIDUAL MOMENT           -2.087E-09   AT NODE        780   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.708E-02   AT NODE        215   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     2.343E-03   AT NODE        312   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ***NOTE: THE MAXIMUM NUMBER OF ITERATIONS BEFORE REFORMING THE KERNEL MATRIX 
+          HAS BEEN REACHED.  THE KERNEL MATRIX WILL NOW BE REFORMED
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34488     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.36E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.50000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.60000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+   MAX. PENETRATION ERROR -21.9282E-12  AT NODE WAIST-UP-1.199 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -7.06016E-03 AT NODE WAIST-UP-1.199 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.129E-03   TIME AVG. FORCE       4.539E-04
+ LARGEST RESIDUAL FORCE             4.258E-08   AT NODE        800   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.597E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        5.722E-08   AT NODE        785   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     3.382E-07   TIME AVG. MOMENT      2.487E-07
+ LARGEST RESIDUAL MOMENT            4.108E-11   AT NODE        198   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      1.708E-02   AT NODE        215   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     4.790E-06   AT NODE         95   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34488     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.36E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.20000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.30000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
+
+   MAX. PENETRATION ERROR 388.165E-15   AT NODE WAIST-UP-1.190 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 124.976E-06   AT NODE WAIST-UP-1.190 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE CONTACT CONSTRAINTS HAVE CONVERGED.
+
+ AVERAGE FORCE                      1.129E-03   TIME AVG. FORCE       4.539E-04
+ LARGEST RESIDUAL FORCE            -2.125E-09   AT NODE        303   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.597E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -2.163E-10   AT NODE        225   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     3.382E-07   TIME AVG. MOMENT      2.487E-07
+ LARGEST RESIDUAL MOMENT           -3.353E-12   AT NODE        303   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      1.708E-02   AT NODE        215   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -6.165E-08   AT NODE        343   DOF  6
+   INSTANCE: WAIST-UP-1                                                                      
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ITERATION SUMMARY FOR THE INCREMENT:   7 TOTAL ITERATIONS, OF WHICH
+   3 ARE SEVERE DISCONTINUITY ITERATIONS AND  4 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  0.100    ,  FRACTION OF STEP COMPLETED  0.758    
+ STEP TIME COMPLETED       0.758    ,  TOTAL TIME COMPLETED        0.758    
+
+
+  INCREMENT    19 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  0.100    
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34488     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.36E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                   18 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                   17 POINTS CHANGED FROM OPEN TO CLOSED
+                    1 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     1
+
+   MAX. PENETRATION ERROR 178.372E-06   AT NODE WAIST-UP-1.221 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 57.4298E+03  AT NODE WAIST-UP-1.221 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      1.277E-03   TIME AVG. FORCE       5.173E-04
+ LARGEST RESIDUAL FORCE            -0.166       AT NODE        221   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.441E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        1.489E-04   AT NODE        194   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.704E-07   TIME AVG. MOMENT      2.791E-07
+ LARGEST RESIDUAL MOMENT            2.472E-08   AT NODE        519   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.719E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -9.218E-03   AT NODE         46   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34504     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.11E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    7 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    7 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     2
+
+   MAX. PENETRATION ERROR -173.957E-09   AT NODE WAIST-UP-1.428 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -56.0084      AT NODE WAIST-UP-1.428 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.170E-03   TIME AVG. FORCE       5.090E-04
+ LARGEST RESIDUAL FORCE            -1.644E-03   AT NODE         34   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.418E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        1.357E-04   AT NODE        518   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.349E-07   TIME AVG. MOMENT      2.703E-07
+ LARGEST RESIDUAL MOMENT            2.470E-08   AT NODE        386   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      1.840E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -1.117E-02   AT NODE        742   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34497     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.11E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.20000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.30000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    3 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    1 POINTS CHANGED FROM OPEN TO CLOSED
+                    2 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     3
+
+   MAX. PENETRATION ERROR 8.30344E-06 AT NODE WAIST-UP-1.199 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 2.67343E+03 AT NODE WAIST-UP-1.199 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      1.168E-03   TIME AVG. FORCE       5.089E-04
+ LARGEST RESIDUAL FORCE            -8.180E-03   AT NODE        199   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.430E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        7.790E-05   AT NODE        278   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.321E-07   TIME AVG. MOMENT      2.696E-07
+ LARGEST RESIDUAL MOMENT            7.536E-09   AT NODE         36   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.864E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -8.480E-03   AT NODE        572   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34496     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.11E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+   MAX. PENETRATION ERROR 2.77816E-09 AT NODE WAIST-UP-1.245 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 894.476E-03   AT NODE WAIST-UP-1.245 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.167E-03   TIME AVG. FORCE       5.088E-04
+ LARGEST RESIDUAL FORCE            -2.722E-06   AT NODE        245   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.430E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        1.132E-05   AT NODE        704   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     3.311E-07   TIME AVG. MOMENT      2.693E-07
+ LARGEST RESIDUAL MOMENT            1.104E-09   AT NODE        366   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.865E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     1.380E-03   AT NODE         48   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          ROTATION CORRECTION TOO LARGE COMPARED TO ROTATION INCREMENT
+
+ ***NOTE: THE MAXIMUM NUMBER OF ITERATIONS BEFORE REFORMING THE KERNEL MATRIX 
+          HAS BEEN REACHED.  THE KERNEL MATRIX WILL NOW BE REFORMED
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34496     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.11E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+   MAX. PENETRATION ERROR -14.6354E-12  AT NODE WAIST-UP-1.362 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -4.71213E-03 AT NODE WAIST-UP-1.362 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.167E-03   TIME AVG. FORCE       5.088E-04
+ LARGEST RESIDUAL FORCE             1.373E-08   AT NODE        176   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.430E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        9.956E-09   AT NODE        753   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     3.311E-07   TIME AVG. MOMENT      2.693E-07
+ LARGEST RESIDUAL MOMENT            1.132E-11   AT NODE        176   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      1.865E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     2.634E-06   AT NODE        366   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34496     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.11E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
+
+   MAX. PENETRATION ERROR -42.3713E-15  AT NODE WAIST-UP-1.428 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -13.6422E-06  AT NODE WAIST-UP-1.428 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE CONTACT CONSTRAINTS HAVE CONVERGED.
+
+ AVERAGE FORCE                      1.167E-03   TIME AVG. FORCE       5.088E-04
+ LARGEST RESIDUAL FORCE            -9.565E-10   AT NODE        176   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.430E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -5.484E-11   AT NODE        248   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     3.311E-07   TIME AVG. MOMENT      2.693E-07
+ LARGEST RESIDUAL MOMENT           -5.158E-13   AT NODE        176   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      1.865E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     1.632E-08   AT NODE        277   DOF  6
+   INSTANCE: WAIST-UP-1                                                                      
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ITERATION SUMMARY FOR THE INCREMENT:   7 TOTAL ITERATIONS, OF WHICH
+   3 ARE SEVERE DISCONTINUITY ITERATIONS AND  4 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  0.100    ,  FRACTION OF STEP COMPLETED  0.858    
+ STEP TIME COMPLETED       0.858    ,  TOTAL TIME COMPLETED        0.858    
+
+
+  INCREMENT    20 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  0.100    
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34496     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.11E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+
+                   13 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                   13 POINTS CHANGED FROM OPEN TO CLOSED
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     1
+
+   MAX. PENETRATION ERROR 105.228E-06   AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 33.8800E+03  AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      1.200E-03   TIME AVG. FORCE       5.581E-04
+ LARGEST RESIDUAL FORCE             8.772E-02   AT NODE        223   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.293E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        1.813E-04   AT NODE       1373   DOF  3
+   INSTANCE: MEMBRANE-1                                                                      
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.710E-07   TIME AVG. MOMENT      2.696E-07
+ LARGEST RESIDUAL MOMENT            2.374E-08   AT NODE        803   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.833E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     7.904E-03   AT NODE        469   DOF  5
+   INSTANCE: MEMBRANE-1                                                                      
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34509     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.26E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    5 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    5 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     2
+
+   MAX. PENETRATION ERROR -136.011E-09   AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -43.7910      AT NODE WAIST-UP-1.223 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.193E-03   TIME AVG. FORCE       5.577E-04
+ LARGEST RESIDUAL FORCE             2.495E-03   AT NODE        381   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.287E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -5.863E-05   AT NODE          9   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.720E-07   TIME AVG. MOMENT      2.699E-07
+ LARGEST RESIDUAL MOMENT            1.895E-08   AT NODE        554   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      2.152E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -1.382E-02   AT NODE        802   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34504     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.24E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+
+                    2 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    2 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     3
+
+   MAX. PENETRATION ERROR 127.113E-09   AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 40.9261      AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.193E-03   TIME AVG. FORCE       5.576E-04
+ LARGEST RESIDUAL FORCE             9.508E-04   AT NODE        462   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.285E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -5.910E-05   AT NODE        264   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.702E-07   TIME AVG. MOMENT      2.695E-07
+ LARGEST RESIDUAL MOMENT            5.316E-09   AT NODE        317   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.904E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     8.021E-03   AT NODE        802   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.30000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+   MAX. PENETRATION ERROR -41.8835E-09  AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -13.4851      AT NODE WAIST-UP-1.223 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.193E-03   TIME AVG. FORCE       5.577E-04
+ LARGEST RESIDUAL FORCE             5.475E-05   AT NODE        785   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.285E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -4.410E-05   AT NODE        746   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.699E-07   TIME AVG. MOMENT      2.694E-07
+ LARGEST RESIDUAL MOMENT            7.285E-09   AT NODE        325   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      1.487E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     7.029E-03   AT NODE         50   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+   MAX. PENETRATION ERROR -990.584E-12   AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -318.935E-03   AT NODE WAIST-UP-1.223 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.193E-03   TIME AVG. FORCE       5.577E-04
+ LARGEST RESIDUAL FORCE             8.100E-07   AT NODE        746   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.285E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        2.624E-07   AT NODE        365   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.699E-07   TIME AVG. MOMENT      2.694E-07
+ LARGEST RESIDUAL MOMENT            3.423E-10   AT NODE         50   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.490E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -3.414E-05   AT NODE        163   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.20000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.30000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
+
+   MAX. PENETRATION ERROR 62.1563E-12  AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 20.0123E-03  AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.193E-03   TIME AVG. FORCE       5.577E-04
+ LARGEST RESIDUAL FORCE             4.992E-08   AT NODE        223   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.285E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -4.195E-08   AT NODE        746   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.699E-07   TIME AVG. MOMENT      2.694E-07
+ LARGEST RESIDUAL MOMENT           -1.083E-11   AT NODE        303   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      1.490E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     5.959E-06   AT NODE         50   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  2
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.30000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     5
+
+   MAX. PENETRATION ERROR 264.599E-15   AT NODE WAIST-UP-1.523 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 85.1921E-06  AT NODE WAIST-UP-1.523 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE CONTACT CONSTRAINTS HAVE CONVERGED.
+
+ AVERAGE FORCE                      1.193E-03   TIME AVG. FORCE       5.577E-04
+ LARGEST RESIDUAL FORCE             4.518E-10   AT NODE        317   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.285E-04   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -2.517E-10   AT NODE        746   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.699E-07   TIME AVG. MOMENT      2.694E-07
+ LARGEST RESIDUAL MOMENT           -1.698E-13   AT NODE         50   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      1.490E-02   AT NODE        718   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     3.791E-08   AT NODE          9   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ITERATION SUMMARY FOR THE INCREMENT:   8 TOTAL ITERATIONS, OF WHICH
+   3 ARE SEVERE DISCONTINUITY ITERATIONS AND  5 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  0.100    ,  FRACTION OF STEP COMPLETED  0.958    
+ STEP TIME COMPLETED       0.958    ,  TOTAL TIME COMPLETED        0.958    
+
+
+  INCREMENT    21 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  4.151E-02
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    1 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    1 POINTS CHANGED FROM OPEN TO CLOSED
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     1
+
+   MAX. PENETRATION ERROR 4.27620E-06 AT NODE WAIST-UP-1.280 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 1.37679E+03 AT NODE WAIST-UP-1.280 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      1.238E-03   TIME AVG. FORCE       6.030E-04
+ LARGEST RESIDUAL FORCE            -3.573E-03   AT NODE        280   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         9.118E-05   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -3.811E-05   AT NODE        389   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.727E-07   TIME AVG. MOMENT      2.700E-07
+ LARGEST RESIDUAL MOMENT           -7.078E-09   AT NODE        479   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      5.408E-03   AT NODE        475   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -3.110E-03   AT NODE        802   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34503     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+   MAX. PENETRATION ERROR -2.81211E-09 AT NODE WAIST-UP-1.280 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -905.407E-03   AT NODE WAIST-UP-1.280 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.238E-03   TIME AVG. FORCE       6.030E-04
+ LARGEST RESIDUAL FORCE             2.344E-06   AT NODE        280   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         9.118E-05   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        2.650E-06   AT NODE        315   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ ESTIMATE OF DISP.    CORRECTION    1.310E-10
+ FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
+
+ AVERAGE MOMENT                     2.727E-07   TIME AVG. MOMENT      2.700E-07
+ LARGEST RESIDUAL MOMENT            8.477E-10   AT NODE         95   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      5.405E-03   AT NODE        475   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     4.884E-04   AT NODE        313   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          ROTATION CORRECTION TOO LARGE COMPARED TO ROTATION INCREMENT
+
+ ***NOTE: THE MAXIMUM NUMBER OF ITERATIONS BEFORE REFORMING THE KERNEL MATRIX 
+          HAS BEEN REACHED.  THE KERNEL MATRIX WILL NOW BE REFORMED
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34503     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+   MAX. PENETRATION ERROR 5.06352E-12 AT NODE WAIST-UP-1.280 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 1.63029E-03 AT NODE WAIST-UP-1.280 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.238E-03   TIME AVG. FORCE       6.030E-04
+ LARGEST RESIDUAL FORCE             2.818E-08   AT NODE        800   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         9.118E-05   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.        3.130E-09   AT NODE        225   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.727E-07   TIME AVG. MOMENT      2.700E-07
+ LARGEST RESIDUAL MOMENT            1.204E-11   AT NODE        780   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      5.405E-03   AT NODE        475   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     7.181E-06   AT NODE         95   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34503     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
+
+   MAX. PENETRATION ERROR -85.1010E-15  AT NODE WAIST-UP-1.428 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -27.3997E-06  AT NODE WAIST-UP-1.428 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE CONTACT CONSTRAINTS HAVE CONVERGED.
+
+ AVERAGE FORCE                      1.238E-03   TIME AVG. FORCE       6.030E-04
+ LARGEST RESIDUAL FORCE            -5.581E-10   AT NODE        798   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         9.118E-05   AT NODE        484   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST CORRECTION TO DISP.       -3.321E-11   AT NODE        470   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.727E-07   TIME AVG. MOMENT      2.700E-07
+ LARGEST RESIDUAL MOMENT            1.959E-13   AT NODE        303   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      5.405E-03   AT NODE        475   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     2.004E-08   AT NODE        698   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ITERATION SUMMARY FOR THE INCREMENT:   5 TOTAL ITERATIONS, OF WHICH
+   1 ARE SEVERE DISCONTINUITY ITERATIONS AND  4 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  4.151E-02,  FRACTION OF STEP COMPLETED   1.00    
+ STEP TIME COMPLETED        1.00    ,  TOTAL TIME COMPLETED         1.00    
+1
+
+   Abaqus 2020                                  Date 05-May-2022   Time 05:42:11
+   For use by Supplied by Team-SolidSQUAD under license from Dassault Systemes or its subsidiary.
+
+                                                                                 
+                                                                                 
+ STEP    2     INCREMENT     1     STEP TIME    0.00    
+
+
+                        S T E P       2     S T A T I C   A N A L Y S I S
+
+
+                                                                                          
+
+     AUTOMATIC TIME CONTROL WITH -
+          A SUGGESTED INITIAL TIME INCREMENT OF                1.000E-03
+          AND A TOTAL TIME PERIOD OF                            1.00    
+          THE MINIMUM TIME INCREMENT ALLOWED IS                1.000E-07
+          THE MAXIMUM TIME INCREMENT ALLOWED IS                0.100    
+
+     LINEAR EQUATION SOLVER TYPE         DIRECT SPARSE
+
+ CONVERGENCE TOLERANCE PARAMETERS FOR FORCE    
+     CRITERION FOR RESIDUAL FORCE     FOR A NONLINEAR PROBLEM          5.000E-03
+     CRITERION FOR DISP.    CORRECTION IN A NONLINEAR PROBLEM          1.000E-02
+     INIT. VALUE OF TIME AVG. FORCE     IS TIME AVG. FORCE     IN PREVIOUS STEP
+     AVERAGE FORCE     IS TIME AVERAGE FORCE    
+     ALTERNATE CRIT. FOR RESIDUAL FORCE     FOR A NONLINEAR PROBLEM    2.000E-02
+     CRITERION FOR ZERO FORCE     RELATIVE TO TIME AVRG. FORCE         1.000E-05
+     CRITERION FOR RESIDUAL FORCE     WHEN THERE IS ZERO FLUX          1.000E-05
+     CRITERION FOR DISP.    CORRECTION WHEN THERE IS ZERO FLUX         1.000E-03
+     CRITERION FOR RESIDUAL FORCE     FOR A LINEAR INCREMENT           1.000E-08
+     FIELD CONVERSION RATIO                                             1.00    
+     CRITERION FOR ZERO FORCE     REL. TO TIME AVRG. MAX. FORCE        1.000E-05
+     CRITERION FOR ZERO DISP.    RELATIVE TO CHARACTERISTIC LENGTH     1.000E-08
+
+ CONVERGENCE TOLERANCE PARAMETERS FOR MOMENT   
+     CRITERION FOR RESIDUAL MOMENT    FOR A NONLINEAR PROBLEM          5.000E-03
+     CRITERION FOR ROTATION CORRECTION IN A NONLINEAR PROBLEM          1.000E-02
+     INIT. VALUE OF TIME AVG. MOMENT    IS TIME AVG. MOMENT    IN PREVIOUS STEP
+     AVERAGE MOMENT    IS TIME AVERAGE MOMENT   
+     ALTERNATE CRIT. FOR RESIDUAL MOMENT    FOR A NONLINEAR PROBLEM    2.000E-02
+     CRITERION FOR ZERO MOMENT    RELATIVE TO TIME AVRG. MOMENT        1.000E-05
+     CRITERION FOR RESIDUAL MOMENT    WHEN THERE IS ZERO FLUX          1.000E-05
+     CRITERION FOR ROTATION CORRECTION WHEN THERE IS ZERO FLUX         1.000E-03
+     CRITERION FOR RESIDUAL MOMENT    FOR A LINEAR INCREMENT           1.000E-08
+     FIELD CONVERSION RATIO                                             1.00    
+     CRITERION FOR ZERO MOMENT    REL. TO TIME AVRG. MAX. MOMENT       1.000E-05
+
+     VOLUMETRIC STRAIN COMPATIBILITY TOLERANCE FOR HYBRID SOLIDS       1.000E-05
+     AXIAL STRAIN COMPATIBILITY TOLERANCE FOR HYBRID BEAMS             1.000E-05
+     TRANS. SHEAR STRAIN COMPATIBILITY TOLERANCE FOR HYBRID BEAMS      1.000E-05
+     SOFT CONTACT CONSTRAINT COMPATIBILITY TOLERANCE FOR P>P0          5.000E-03
+     SOFT CONTACT CONSTRAINT COMPATIBILITY TOLERANCE FOR P=0.0         0.100    
+     CONTACT FORCE ERROR TOLERANCE FOR CONVERT SDI=YES                 1.00    
+     DISPLACEMENT COMPATIBILITY TOLERANCE FOR DCOUP ELEMENTS           1.000E-05
+     ROTATION COMPATIBILITY TOLERANCE FOR DCOUP ELEMENTS               1.000E-05
+
+ EQUILIBRIUM WILL BE CHECKED FOR SEVERE DISCONTINUITY ITERATIONS
+
+ TIME INCREMENTATION CONTROL PARAMETERS:
+     FIRST EQUILIBRIUM ITERATION FOR CONSECUTIVE DIVERGENCE CHECK              4
+     EQUILIBRIUM ITERATION AT WHICH LOG. CONVERGENCE RATE CHECK BEGINS         8
+     EQUILIBRIUM ITERATION AFTER WHICH ALTERNATE RESIDUAL IS USED              9
+     MAXIMUM EQUILIBRIUM ITERATIONS ALLOWED                                   16
+     EQUILIBRIUM ITERATION COUNT FOR CUT-BACK IN NEXT INCREMENT               10
+     MAXIMUM EQUILIB. ITERS IN TWO INCREMENTS FOR TIME INCREMENT INCREASE      4
+     MAXIMUM ITERATIONS FOR SEVERE DISCONTINUITIES                            50
+     MAXIMUM ATTEMPTS ALLOWED IN AN INCREMENT                                  5
+     MAXIMUM DISCON. ITERS IN TWO INCREMENTS FOR TIME INCREMENT INCREASE      50
+     MAXIMUM CONTACT AUGMENTATIONS FOR *SURFACE BEHAVIOR,AUGMENTED LAGRANGE   50
+     CUT-BACK FACTOR AFTER DIVERGENCE                                 0.2500    
+     CUT-BACK FACTOR FOR TOO SLOW CONVERGENCE                         0.5000    
+     CUT-BACK FACTOR AFTER TOO MANY EQUILIBRIUM ITERATIONS            0.7500    
+     CUT-BACK FACTOR AFTER TOO MANY SEVERE DISCONTINUITY ITERATIONS   0.2500    
+     CUT-BACK FACTOR AFTER PROBLEMS IN ELEMENT ASSEMBLY               0.2500    
+     INCREASE FACTOR AFTER TWO INCREMENTS THAT CONVERGE QUICKLY        1.500    
+     MAX. TIME INCREMENT INCREASE FACTOR ALLOWED                       1.500    
+     MAX. TIME INCREMENT INCREASE FACTOR ALLOWED (DYNAMICS)            1.250    
+     MAX. TIME INCREMENT INCREASE FACTOR ALLOWED (DIFFUSION)           2.000    
+     MINIMUM TIME INCREMENT RATIO FOR EXTRAPOLATION TO OCCUR          0.1000    
+     MAX. RATIO OF TIME INCREMENT TO STABILITY LIMIT                   1.000    
+     FRACTION OF STABILITY LIMIT FOR NEW TIME INCREMENT               0.9500    
+     TIME INCREMENT INCREASE FACTOR BEFORE A TIME POINT                1.000    
+     GLOBAL STABILIZATION CONTROL IS NOT USED
+
+          PRINT OF INCREMENT NUMBER, TIME, ETC., EVERY    1  INCREMENTS
+
+ LINE SEARCH TOLERANCE PARAMETERS:
+     MAXIMUM NUMBER OF ZERO-FINDING ITERATIONS                                 0
+     MAXIMUM CORRECTION SCALE FACTOR                                    1.00    
+     MINIMUM CORRECTION SCALE FACTOR                                   1.000E-04
+     RESIDUAL REDUCTION FACTOR TO END LINE SEARCHING                   0.250    
+     RATIO OF NEW TO OLD SCALE FACTORS TO END LINE SEARCHING           0.100    
+
+          THE QUASI-NEWTON SOLUTION TECHNIQUE WILL BE USED
+          THE MAXIMUM NUMBER OF ITERATIONS ALLOWED BEFORE
+          REFORMING THE KERNEL MATRIX IS                           8
+
+     THE MAXIMUM NUMBER OF INCREMENTS IN THIS STEP IS                    1000
+
+          LARGE DISPLACEMENT THEORY WILL BE USED
+
+     LINEAR EXTRAPOLATION WILL BE USED
+
+     CHARACTERISTIC ELEMENT LENGTH     8.307E-03
+
+     DETAILS REGARDING ACTUAL SOLUTION WAVEFRONT REQUESTED
+
+     DETAILED OUTPUT OF DIAGNOSTICS TO DATABASE REQUESTED
+
+     PRINT OF INCREMENT NUMBER, TIME, ETC., TO THE MESSAGE FILE EVERY     1  INCREMENTS
+
+     ELEMENT OPERATIONS WILL BE CARRIED OUT IN PARALLEL USING   5 PROCESSORS
+
+     COLLECTING STEP CONSTRAINT INFORMATION FOR OVERCONSTRAINT CHECKS
+
+
+  INCREMENT     1 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-03
+ 
+     INITIAL ELEMENT LOAD BALANCE
+            PROCESS    1   THREAD     NUMBER OF ELEMENTS
+                              1            3072
+                              2            2816
+                              3            3072
+                              4            3242
+                              5            3069
+
+ ==> quasi-Newton: performing full factorization
+
+ ***WARNING: THERE ARE 3 UNCONNECTED REGIONS IN THE MODEL.
+
+ ***NOTE: SFM TYPE SURFACE ELEMENTS USED TO DEFINE CONTACT SURFACES NOT PART OF 
+          A RIGID BODY MAY INCREASE THE NUMBER OR UNCONNECTED REGIONS REPORTED.
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34503     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.20000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.30000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    1 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    1 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     1
+
+   MAX. PENETRATION ERROR -207.405E-09   AT NODE WAIST-UP-1.190 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -66.7775      AT NODE WAIST-UP-1.190 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.060E-03   TIME AVG. FORCE       1.060E-03
+ LARGEST RESIDUAL FORCE            -1.868E-04   AT NODE        448   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.531E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        2.531E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.733E-07   TIME AVG. MOMENT      2.733E-07
+ LARGEST RESIDUAL MOMENT            4.910E-08   AT NODE        534   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.197E-02   AT NODE        533   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -1.197E-02   AT NODE        533   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+   MAX. PENETRATION ERROR -9.01972E-09 AT NODE WAIST-UP-1.362 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -2.90405     AT NODE WAIST-UP-1.362 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.060E-03   TIME AVG. FORCE       1.060E-03
+ LARGEST RESIDUAL FORCE             7.589E-06   AT NODE        362   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.198E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.       -3.323E-05   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.731E-07   TIME AVG. MOMENT      2.731E-07
+ LARGEST RESIDUAL MOMENT            1.226E-09   AT NODE        534   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.020E-02   AT NODE        815   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     1.897E-03   AT NODE        533   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          ROTATION CORRECTION TOO LARGE COMPARED TO ROTATION INCREMENT
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.20000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.20000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+   MAX. PENETRATION ERROR 131.309E-12   AT NODE WAIST-UP-1.190 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 42.2772E-03  AT NODE WAIST-UP-1.190 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.060E-03   TIME AVG. FORCE       1.060E-03
+ LARGEST RESIDUAL FORCE            -2.091E-07   AT NODE        534   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.191E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.       -6.955E-07   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.731E-07   TIME AVG. MOMENT      2.731E-07
+ LARGEST RESIDUAL MOMENT            6.453E-11   AT NODE        534   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.016E-02   AT NODE        815   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     5.026E-05   AT NODE        533   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.20000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
+
+   MAX. PENETRATION ERROR 2.41345E-12 AT NODE WAIST-UP-1.362 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 777.052E-06   AT NODE WAIST-UP-1.362 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.060E-03   TIME AVG. FORCE       1.060E-03
+ LARGEST RESIDUAL FORCE             3.168E-09   AT NODE        800   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.191E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.       -3.637E-08   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.731E-07   TIME AVG. MOMENT      2.731E-07
+ LARGEST RESIDUAL MOMENT           -1.246E-12   AT NODE        451   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -1.016E-02   AT NODE        815   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     2.599E-06   AT NODE        533   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  2
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     5
+
+   MAX. PENETRATION ERROR 53.7771E-15  AT NODE WAIST-UP-1.362 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 17.3145E-06  AT NODE WAIST-UP-1.362 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE CONTACT CONSTRAINTS HAVE CONVERGED.
+
+ AVERAGE FORCE                      1.060E-03   TIME AVG. FORCE       1.060E-03
+ LARGEST RESIDUAL FORCE            -6.001E-11   AT NODE        195   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.191E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.       -1.521E-10   AT NODE        383   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.731E-07   TIME AVG. MOMENT      2.731E-07
+ LARGEST RESIDUAL MOMENT           -1.585E-14   AT NODE        682   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.016E-02   AT NODE        815   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -1.281E-08   AT NODE        626   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ITERATION SUMMARY FOR THE INCREMENT:   6 TOTAL ITERATIONS, OF WHICH
+   1 ARE SEVERE DISCONTINUITY ITERATIONS AND  5 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  1.000E-03,  FRACTION OF STEP COMPLETED  1.000E-03
+ STEP TIME COMPLETED       1.000E-03,  TOTAL TIME COMPLETED         1.00    
+
+
+  INCREMENT     2 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-03
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.18E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    2 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    2 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     1
+
+   MAX. PENETRATION ERROR -14.1913E-09  AT NODE WAIST-UP-1.362 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -4.56912     AT NODE WAIST-UP-1.362 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.125E-03   TIME AVG. FORCE       1.093E-03
+ LARGEST RESIDUAL FORCE            -2.168E-04   AT NODE        428   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         1.758E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.       -4.333E-05   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.760E-07   TIME AVG. MOMENT      2.745E-07
+ LARGEST RESIDUAL MOMENT            2.243E-09   AT NODE        644   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -7.748E-03   AT NODE        815   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     2.572E-03   AT NODE        533   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34500     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.17E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+   MAX. PENETRATION ERROR 3.22942E-09 AT NODE WAIST-UP-1.280 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 1.03977     AT NODE WAIST-UP-1.280 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.125E-03   TIME AVG. FORCE       1.093E-03
+ LARGEST RESIDUAL FORCE             2.742E-06   AT NODE        190   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         1.752E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        1.088E-05   AT NODE        482   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ ESTIMATE OF DISP.    CORRECTION   -1.014E-07
+ FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
+
+ AVERAGE MOMENT                     2.760E-07   TIME AVG. MOMENT      2.745E-07
+ LARGEST RESIDUAL MOMENT            9.412E-10   AT NODE        282   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -7.687E-03   AT NODE        815   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     1.233E-03   AT NODE        146   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          ROTATION CORRECTION TOO LARGE COMPARED TO ROTATION INCREMENT
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34500     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.17E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =   0.0000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =   0.0000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+   MAX. PENETRATION ERROR 13.2828E-12  AT NODE WAIST-UP-1.213 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 4.27663E-03 AT NODE WAIST-UP-1.213 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.125E-03   TIME AVG. FORCE       1.093E-03
+ LARGEST RESIDUAL FORCE            -1.260E-08   AT NODE        213   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         1.752E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.       -3.750E-09   AT NODE          8   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.760E-07   TIME AVG. MOMENT      2.745E-07
+ LARGEST RESIDUAL MOMENT            9.280E-12   AT NODE        146   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -7.687E-03   AT NODE        815   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -1.522E-05   AT NODE        277   DOF  6
+   INSTANCE: WAIST-UP-1                                                                      
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34500     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.17E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =   0.0000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
+
+   MAX. PENETRATION ERROR -102.917E-15   AT NODE WAIST-UP-1.213 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -33.1360E-06  AT NODE WAIST-UP-1.213 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE CONTACT CONSTRAINTS HAVE CONVERGED.
+
+ AVERAGE FORCE                      1.125E-03   TIME AVG. FORCE       1.093E-03
+ LARGEST RESIDUAL FORCE             4.891E-10   AT NODE        573   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         1.752E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        1.991E-10   AT NODE        394   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.760E-07   TIME AVG. MOMENT      2.745E-07
+ LARGEST RESIDUAL MOMENT            2.006E-13   AT NODE        232   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -7.687E-03   AT NODE        815   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -1.594E-07   AT NODE        277   DOF  6
+   INSTANCE: WAIST-UP-1                                                                      
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ITERATION SUMMARY FOR THE INCREMENT:   5 TOTAL ITERATIONS, OF WHICH
+   1 ARE SEVERE DISCONTINUITY ITERATIONS AND  4 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  1.000E-03,  FRACTION OF STEP COMPLETED  2.000E-03
+ STEP TIME COMPLETED       2.000E-03,  TOTAL TIME COMPLETED         1.00    
+
+
+  INCREMENT     3 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.000E-03
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34500     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.17E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+
+                    2 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    2 POINTS CHANGED FROM OPEN TO CLOSED
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     1
+
+   MAX. PENETRATION ERROR 2.49986E-06 AT NODE WAIST-MIDDLE-1.411 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-12345-OUT_CNS_,ASSEMBLY_MEMBRANE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 49.2558      AT NODE WAIST-MIDDLE-1.411 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-12345-OUT_CNS_,ASSEMBLY_MEMBRANE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      1.118E-03   TIME AVG. FORCE       1.101E-03
+ LARGEST RESIDUAL FORCE            -2.458E-03   AT NODE        411   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         1.510E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.       -2.425E-05   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.767E-07   TIME AVG. MOMENT      2.752E-07
+ LARGEST RESIDUAL MOMENT            2.122E-09   AT NODE        644   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -6.221E-03   AT NODE        815   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     1.590E-03   AT NODE        146   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.90E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+   MAX. PENETRATION ERROR 223.561E-12   AT NODE WAIST-MIDDLE-1.712 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-12345-OUT_CNS_,ASSEMBLY_MEMBRANE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -28.4100E-03  AT NODE WAIST-UP-1.362 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.118E-03   TIME AVG. FORCE       1.101E-03
+ LARGEST RESIDUAL FORCE            -2.282E-07   AT NODE        712   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         1.507E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        4.854E-06   AT NODE        469   DOF  3
+   INSTANCE: MEMBRANE-1                                                                      
+ ESTIMATE OF DISP.    CORRECTION    3.672E-09
+ FORCE     EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
+
+ AVERAGE MOMENT                     2.766E-07   TIME AVG. MOMENT      2.752E-07
+ LARGEST RESIDUAL MOMENT           -6.400E-11   AT NODE        411   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -6.196E-03   AT NODE        815   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -4.928E-04   AT NODE       1228   DOF  5
+   INSTANCE: MEMBRANE-1                                                                      
+ ESTIMATE OF ROTATION CORRECTION    1.486E-05
+ MOMENT    EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
+
+ ***NOTE: THE MAXIMUM NUMBER OF ITERATIONS BEFORE REFORMING THE KERNEL MATRIX 
+          HAS BEEN REACHED.  THE KERNEL MATRIX WILL NOW BE REFORMED
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.90E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.50000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+   MAX. PENETRATION ERROR -149.828E-15   AT NODE WAIST-UP-1.362 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -48.2398E-06  AT NODE WAIST-UP-1.362 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE CONTACT CONSTRAINTS HAVE CONVERGED.
+
+ AVERAGE FORCE                      1.118E-03   TIME AVG. FORCE       1.101E-03
+ LARGEST RESIDUAL FORCE             2.148E-09   AT NODE        800   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         1.507E-04   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        6.129E-09   AT NODE       1236   DOF  3
+   INSTANCE: MEMBRANE-1                                                                      
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.766E-07   TIME AVG. MOMENT      2.752E-07
+ LARGEST RESIDUAL MOMENT           -8.928E-13   AT NODE        451   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -6.196E-03   AT NODE        815   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     3.442E-07   AT NODE       1296   DOF  6
+   INSTANCE: MEMBRANE-1                                                                      
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+          TIME INCREMENT MAY NOW INCREASE TO    1.500E-03
+
+ ITERATION SUMMARY FOR THE INCREMENT:   4 TOTAL ITERATIONS, OF WHICH
+   1 ARE SEVERE DISCONTINUITY ITERATIONS AND  3 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  1.000E-03,  FRACTION OF STEP COMPLETED  3.000E-03
+ STEP TIME COMPLETED       3.000E-03,  TOTAL TIME COMPLETED         1.00    
+
+
+  INCREMENT     4 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  1.500E-03
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34502     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.90E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    7 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    1 POINTS CHANGED FROM OPEN TO CLOSED
+                    6 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     1
+
+   MAX. PENETRATION ERROR 3.79033E-06 AT NODE WAIST-UP-1.175 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 1.22036E+03 AT NODE WAIST-UP-1.175 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      1.121E-03   TIME AVG. FORCE       1.106E-03
+ LARGEST RESIDUAL FORCE             3.088E-03   AT NODE        175   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.043E-04   AT NODE        173   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.       -2.877E-05   AT NODE        364   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.786E-07   TIME AVG. MOMENT      2.761E-07
+ LARGEST RESIDUAL MOMENT            3.765E-09   AT NODE        644   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -7.547E-03   AT NODE        247   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     1.840E-03   AT NODE        533   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34497     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.88E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.50000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.60000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    2 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    1 POINTS CHANGED FROM OPEN TO CLOSED
+                    1 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     2
+
+   MAX. PENETRATION ERROR 2.69007E-06 AT NODE WAIST-UP-1.199 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 866.115       AT NODE WAIST-UP-1.199 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      1.121E-03   TIME AVG. FORCE       1.106E-03
+ LARGEST RESIDUAL FORCE            -2.652E-03   AT NODE        199   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.091E-04   AT NODE        173   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        4.846E-05   AT NODE         48   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.784E-07   TIME AVG. MOMENT      2.760E-07
+ LARGEST RESIDUAL MOMENT           -5.905E-09   AT NODE        327   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      7.489E-03   AT NODE        369   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     3.580E-03   AT NODE        674   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34497     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+   MAX. PENETRATION ERROR -1.23090E-09 AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -396.311E-03   AT NODE WAIST-UP-1.223 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.121E-03   TIME AVG. FORCE       1.106E-03
+ LARGEST RESIDUAL FORCE            -1.043E-06   AT NODE        223   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.091E-04   AT NODE        173   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        1.863E-06   AT NODE        208   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.784E-07   TIME AVG. MOMENT      2.760E-07
+ LARGEST RESIDUAL MOMENT            3.202E-10   AT NODE        327   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION      7.488E-03   AT NODE        369   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     3.359E-04   AT NODE        620   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ ESTIMATE OF ROTATION CORRECTION    2.857E-05
+ MOMENT    EQUILIB. ACCEPTED BASED ON SMALL RESIDUAL AND ESTIMATED CORRECTION
+
+ ***NOTE: THE MAXIMUM NUMBER OF ITERATIONS BEFORE REFORMING THE KERNEL MATRIX 
+          HAS BEEN REACHED.  THE KERNEL MATRIX WILL NOW BE REFORMED
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34497     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+   MAX. PENETRATION ERROR -6.80463E-12 AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -2.19087E-03 AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.121E-03   TIME AVG. FORCE       1.106E-03
+ LARGEST RESIDUAL FORCE            -5.709E-09   AT NODE        223   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.091E-04   AT NODE        173   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        1.063E-09   AT NODE        630   DOF  1
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.784E-07   TIME AVG. MOMENT      2.760E-07
+ LARGEST RESIDUAL MOMENT           -1.685E-12   AT NODE        364   DOF  5
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      7.488E-03   AT NODE        369   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     2.894E-06   AT NODE        156   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34497     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.20000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
+
+   MAX. PENETRATION ERROR -17.7493E-15  AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -5.71467E-06 AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE CONTACT CONSTRAINTS HAVE CONVERGED.
+
+ AVERAGE FORCE                      1.121E-03   TIME AVG. FORCE       1.106E-03
+ LARGEST RESIDUAL FORCE            -1.133E-10   AT NODE        307   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.091E-04   AT NODE        173   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        1.475E-11   AT NODE        801   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.784E-07   TIME AVG. MOMENT      2.760E-07
+ LARGEST RESIDUAL MOMENT           -4.710E-14   AT NODE        112   DOF  6
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION      7.488E-03   AT NODE        369   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     2.976E-08   AT NODE        156   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+          TIME INCREMENT MAY NOW INCREASE TO    2.250E-03
+
+ ITERATION SUMMARY FOR THE INCREMENT:   6 TOTAL ITERATIONS, OF WHICH
+   2 ARE SEVERE DISCONTINUITY ITERATIONS AND  4 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  1.500E-03,  FRACTION OF STEP COMPLETED  4.500E-03
+ STEP TIME COMPLETED       4.500E-03,  TOTAL TIME COMPLETED         1.00    
+
+
+  INCREMENT     5 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  2.250E-03
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34497     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.83E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.40000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          1
+
+                    9 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    9 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     1
+
+   MAX. PENETRATION ERROR 19.6812E-09  AT NODE WAIST-UP-1.199 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 6.33670     AT NODE WAIST-UP-1.199 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.147E-03   TIME AVG. FORCE       1.114E-03
+ LARGEST RESIDUAL FORCE            -1.552E-03   AT NODE        502   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.936E-04   AT NODE        499   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        8.205E-05   AT NODE        586   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.828E-07   TIME AVG. MOMENT      2.774E-07
+ LARGEST RESIDUAL MOMENT           -1.566E-08   AT NODE        606   DOF  6
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.287E-02   AT NODE        777   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -7.167E-03   AT NODE        572   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34488     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.79E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.50000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.60000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    3 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    1 POINTS CHANGED FROM OPEN TO CLOSED
+                    2 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     2
+
+   MAX. PENETRATION ERROR 2.59052E-06 AT NODE WAIST-UP-1.558 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 834.061       AT NODE WAIST-UP-1.558 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          PENETRATION ERROR TOO LARGE COMPARED TO DISPLACEMENT INCREMENT.
+
+ AVERAGE FORCE                      1.147E-03   TIME AVG. FORCE       1.114E-03
+ LARGEST RESIDUAL FORCE            -2.572E-03   AT NODE        558   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.937E-04   AT NODE        499   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        1.155E-04   AT NODE        518   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.815E-07   TIME AVG. MOMENT      2.771E-07
+ LARGEST RESIDUAL MOMENT            1.812E-08   AT NODE        386   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -1.362E-02   AT NODE        777   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -7.601E-03   AT NODE        762   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34487     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.77E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.50000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.60000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    1 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    1 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     3
+
+   MAX. PENETRATION ERROR -5.59058E-09 AT NODE WAIST-UP-1.315 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -1.79998     AT NODE WAIST-UP-1.315 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.147E-03   TIME AVG. FORCE       1.114E-03
+ LARGEST RESIDUAL FORCE            -8.105E-04   AT NODE        558   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         2.933E-04   AT NODE        499   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        5.223E-05   AT NODE        711   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.812E-07   TIME AVG. MOMENT      2.771E-07
+ LARGEST RESIDUAL MOMENT            5.440E-09   AT NODE        304   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -1.360E-02   AT NODE        777   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -5.629E-03   AT NODE        210   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34486     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.76E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.50000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.60000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+   MAX. PENETRATION ERROR 3.01400E-09 AT NODE WAIST-UP-1.564 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 970.409E-03   AT NODE WAIST-UP-1.564 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.146E-03   TIME AVG. FORCE       1.114E-03
+ LARGEST RESIDUAL FORCE             3.981E-05   AT NODE        210   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.926E-04   AT NODE        640   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        7.481E-05   AT NODE        148   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.808E-07   TIME AVG. MOMENT      2.770E-07
+ LARGEST RESIDUAL MOMENT            5.340E-09   AT NODE        275   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -1.334E-02   AT NODE        777   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -5.273E-03   AT NODE        206   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34486     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.76E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.20000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.20000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+   MAX. PENETRATION ERROR -17.2945E-12  AT NODE WAIST-UP-1.377 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -5.56825E-03 AT NODE WAIST-UP-1.377 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.146E-03   TIME AVG. FORCE       1.114E-03
+ LARGEST RESIDUAL FORCE            -2.453E-07   AT NODE        113   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.926E-04   AT NODE        640   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.       -3.518E-07   AT NODE        148   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.808E-07   TIME AVG. MOMENT      2.770E-07
+ LARGEST RESIDUAL MOMENT           -2.003E-10   AT NODE        206   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.334E-02   AT NODE        777   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     2.214E-05   AT NODE        238   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34486     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.76E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     4
+
+   MAX. PENETRATION ERROR -2.32413E-12 AT NODE WAIST-UP-1.564 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR -748.294E-06   AT NODE WAIST-UP-1.564 OF CONTACT 
+   PAIR (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE CONTACT CONSTRAINTS HAVE CONVERGED.
+
+ AVERAGE FORCE                      1.146E-03   TIME AVG. FORCE       1.114E-03
+ LARGEST RESIDUAL FORCE            -1.395E-08   AT NODE        238   DOF  2
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         2.926E-04   AT NODE        640   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        3.778E-08   AT NODE        148   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.808E-07   TIME AVG. MOMENT      2.770E-07
+ LARGEST RESIDUAL MOMENT           -3.121E-12   AT NODE        275   DOF  4
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF ROTATION     -1.334E-02   AT NODE        777   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -3.642E-06   AT NODE        206   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+          TIME INCREMENT MAY NOW INCREASE TO    3.375E-03
+
+ ITERATION SUMMARY FOR THE INCREMENT:   7 TOTAL ITERATIONS, OF WHICH
+   3 ARE SEVERE DISCONTINUITY ITERATIONS AND  4 ARE EQUILIBRIUM ITERATIONS.
+
+ TIME INCREMENT COMPLETED  2.250E-03,  FRACTION OF STEP COMPLETED  6.750E-03
+ STEP TIME COMPLETED       6.750E-03,  TOTAL TIME COMPLETED         1.01    
+
+
+  INCREMENT     6 STARTS. ATTEMPT NUMBER  1, TIME INCREMENT  3.375E-03
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34486     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.76E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.30000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.40000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+                    2 SEVERE DISCONTINUITIES OCCURRED DURING THIS ITERATION.
+                    2 POINTS CHANGED FROM CLOSED TO OPEN
+
+               CONVERGENCE CHECKS FOR SEVERE DISCONTINUITY ITERATION     1
+
+   MAX. PENETRATION ERROR 35.1343E-09  AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 11.3121      AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.197E-03   TIME AVG. FORCE       1.128E-03
+ LARGEST RESIDUAL FORCE            -6.715E-04   AT NODE        548   DOF  3
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         4.266E-04   AT NODE         15   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        1.507E-04   AT NODE        148   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.853E-07   TIME AVG. MOMENT      2.784E-07
+ LARGEST RESIDUAL MOMENT            3.577E-08   AT NODE        740   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.945E-02   AT NODE        327   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION    -1.079E-02   AT NODE        206   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: performing full factorization
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34484     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.75E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.50000    
+       ELAPSED SYSTEM TIME (SEC)    =  0.10000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.60000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     2
+
+   MAX. PENETRATION ERROR 30.3758E-09  AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 9.78002     AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.197E-03   TIME AVG. FORCE       1.128E-03
+ LARGEST RESIDUAL FORCE             3.191E-05   AT NODE        700   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF DISP.         4.249E-04   AT NODE         15   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.        3.686E-05   AT NODE        604   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          FORCE     EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ AVERAGE MOMENT                     2.853E-07   TIME AVG. MOMENT      2.783E-07
+ LARGEST RESIDUAL MOMENT            1.035E-08   AT NODE        611   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.925E-02   AT NODE        327   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     4.459E-03   AT NODE         88   DOF  5
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          MOMENT    EQUILIBRIUM NOT ACHIEVED WITHIN TOLERANCE.
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
+
+  NUMBER OF EQUATIONS =     34484     NUMBER OF RHS =    1
+  NUMBER OF FLOATING PT. OPERATIONS =  8.75E+08
+
+     CHECK POINT  END OF SOLVER       
+
+       ELAPSED USER TIME (SEC)      =  0.10000    
+       ELAPSED SYSTEM TIME (SEC)    =   0.0000    
+       ELAPSED TOTAL CPU TIME (SEC) =  0.10000    
+       ELAPSED WALLCLOCK TIME (SEC) =          0
+ ==> quasi-Newton:  skipped BFGS update  1
+
+               CONVERGENCE CHECKS FOR EQUILIBRIUM ITERATION     3
+
+   MAX. PENETRATION ERROR 281.442E-12   AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+   MAX. CONTACT FORCE ERROR 90.6152E-03  AT NODE WAIST-UP-1.223 OF CONTACT PAIR 
+   (ASSEMBLY_NDE-35-OUT_CNS_,ASSEMBLY_WAIST-MIDDLE-1_SURF-INN)
+          THE ESTIMATED CONTACT FORCE ERROR IS OUTSIDE OF CONVERGENCE TOLERANCES.
+
+ AVERAGE FORCE                      1.197E-03   TIME AVG. FORCE       1.128E-03
+ LARGEST RESIDUAL FORCE             2.394E-07   AT NODE        223   DOF  1
+   INSTANCE: WAIST-UP-1                                                                      
+ LARGEST INCREMENT OF DISP.         4.249E-04   AT NODE         15   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO DISP.       -5.107E-08   AT NODE        606   DOF  3
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE FORCE     EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ AVERAGE MOMENT                     2.853E-07   TIME AVG. MOMENT      2.783E-07
+ LARGEST RESIDUAL MOMENT            3.400E-10   AT NODE        611   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST INCREMENT OF ROTATION     -1.925E-02   AT NODE        327   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+ LARGEST CORRECTION TO ROTATION     4.009E-05   AT NODE        611   DOF  4
+   INSTANCE: WAIST-MIDDLE-1                                                                  
+          THE MOMENT    EQUILIBRIUM EQUATIONS HAVE CONVERGED
+
+ ==> quasi-Newton: applying BFGS update  1
+
+  USING THE DIRECT SOLVER WITH   5 PROCESSORS
+
+     CHECK POINT   START OF SOLVER    
